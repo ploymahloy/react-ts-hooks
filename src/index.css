@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--dark-color: rgb(16, 46, 54);
+	--light-color: rgb(27, 75, 87);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: var(--dark-color);
+	background: radial-gradient(
+		circle,
+		var(--light-color) 0%,
+		var(--dark-color) 95%
+	);
+}
